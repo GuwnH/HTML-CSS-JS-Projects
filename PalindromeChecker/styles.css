@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #D58936;
+  flex-direction: column;
+  position: relative;
+  top: 20vh;
+  font-family: sans-serif;
+}
+
+.box {
+  height: 30%;
+  width: 50%;
+  background: linear-gradient(70deg,#69140E,#A44200);
+  text-align: center;
+  border-radius: 10px;
+}
+
+p {
+  color: #3C1518;
+  font-weight: bold;
+}
+
+h1 {
+  color: #3C1518;
+}
+
+#text-input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid #69140E;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #F2F3AE;
+  font-size: 1.2rem;
+}
+
